@@ -9,7 +9,7 @@ Runs entirely in the browser via Google Colab. No local install required.
 
 This tool makes live requests to external services, so it's worth checking before you run it — especially if you're pasting it into a shared or institutional environment.
 
-- **View the notebook directly on GitHub**: [`gc_column_ri_coverage_tool.ipynb`](./gc_column_ri_coverage_tool.ipynb) renders in your browser, no download needed.
+- **View the notebook directly on GitHub**: [`NIST Searcher.ipynb`](./NIST Searcher.ipynb) renders in your browser, no download needed.
 - **Paste it into an LLM of your choice** (Claude, ChatGPT, or similar) and ask it to review the code for anything unsafe or unexpected.
 - **What it actually contacts**, for full transparency:
   - **NIST WebBook** (`webbook.nist.gov`) — the actual retention index data
