@@ -19,7 +19,7 @@ This tool makes live requests to external services, so it's worth checking befor
 
 ## Run it in Google Colab (no download required)
 
-**[Open in Colab](https://colab.research.google.com/github/aspiringutilitybot/NIST-Searcher-for-gas-chromatography-volatile-retention-indices/blob/main/gc_column_ri_coverage_tool.ipynb)**
+**[Open in Colab](https://colab.research.google.com/github/aspiringutilitybot/NIST_Searcher/blob/main/gc_column_ri_coverage_tool.ipynb)**
 
 This link opens the exact file in this repository directly in Colab — the same code you just reviewed, not a separate copy.
 
