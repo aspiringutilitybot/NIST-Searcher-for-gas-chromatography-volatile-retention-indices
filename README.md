@@ -5,11 +5,13 @@ Paste in a list of volatile compound names and this tool checks NIST WebBook for
 
 Runs entirely in the browser via Google Colab. No local install required.
 
+## Video tutorial: https://www.youtube.com/watch?v=DsdP3UYpUDA
+
 ## Before you run it: verify the code yourself
 
 This tool makes live requests to external services, so it's worth checking before you run it — especially if you're pasting it into a shared or institutional environment.
 
-- **View the notebook directly on GitHub**: [`gc_column_ri_coverage_tool.ipynb`](./gc_column_ri_coverage_tool.ipynb) renders in your browser, no download needed.
+- **View the notebook directly on GitHub**: (https://github.com/aspiringutilitybot/NIST-Searcher-for-gas-chromatography-volatile-retention-indices) renders in your browser
 - **Paste it into an LLM of your choice** (Claude, ChatGPT, or similar) and ask it to review the code for anything unsafe or unexpected.
 - **What it actually contacts**, for full transparency:
   - **NIST WebBook** (`webbook.nist.gov`) — the actual retention index data
@@ -17,11 +19,8 @@ This tool makes live requests to external services, so it's worth checking befor
   - **A published Google Sheet** (only if `KNOWN_ISSUES_SHEET_URL` is set) — a small, human-curated list of compounds known to fail automated lookup, and where to check them manually
 - It does not touch your files, credentials, or anything else on your system.
 
-## Run it in Google Colab (no download required)
-
-**[Open in Colab](https://colab.research.google.com/github/aspiringutilitybot/NIST-Searcher-for-gas-chromatography-volatile-retention-indices/blob/main/gc_column_ri_coverage_tool.ipynb)**
-
-This link opens the exact file in this repository directly in Colab — the same code you just reviewed, not a separate copy.
+## Run it in Google Colab
+Download the code by clicking the elipses in the top right corner of the code, then upload it to google Drive. Right click the file there, select "Open with > Google Colaboratory"
 
 First-time setup, once per session:
 1. **Runtime → Change runtime type → R**, if it doesn't launch in R automatically.
